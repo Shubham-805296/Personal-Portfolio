@@ -1,0 +1,57 @@
+body{
+     background-image: url('https://static.vecteezy.com/system/resources/thumbnails/048/830/556/small_2x/modern-laptop-displaying-computer-code-on-screen-in-neon-light-photo.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+}
+.d-flex{
+    display: flex;
+}
+.p-1{
+    padding: 1rem;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.menu{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.menu > ul{
+     display: flex;
+     
+    }
+
+.menu > ul > li {
+     list-style-type: none;  
+}
+
+.menu > ul > li:hover {
+     background: rgb(180, 179, 179,0.7);
+}
+
+.menu > ul > li > a {
+    display: block;
+     padding: 1rem;  
+     margin: 0 5px; 
+}
+a{
+    color:rgb(50, 101, 228);
+    text-decoration: none;
+    
+}
+
+.topic{
+    padding-top: 15px;
+    color: #fff;
+    float: inline-end;
+}
+.background{
+    background-color: rgba(240, 240, 240,0.7);
+}

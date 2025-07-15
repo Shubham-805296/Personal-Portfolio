@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(211, 202, 191);
+height: 20%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+}
+.d-flex{
+    display: flex;
+}
+.p-1{
+    padding: 1rem;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.menu{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.menu > ul{
+     display: flex;
+    }
+
+.menu > ul > li {
+     list-style-type: none; 
+}
+
+.menu > ul > li:hover {
+     background: rgb(180, 179, 179);
+}
+
+.menu > ul > li > a {
+    display: block;
+     padding: 1rem;  
+     margin: 0 5px; 
+}
+a{
+    color:rgb(50, 101, 228);
+    text-decoration: none;
+}
+
+.me1{
+    width: 50vw;
+    height: 100vh;
+    background-image: url('./img/sbm2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.position{
+    position: fixed;
+}
+
+.me{
+    width: 50vw;
+    height: 100vh;
+    padding: 50px;
+}
+h1{
+    color: rgb(191, 66, 191);
+}
+
+.background{
+    background-color: rgba(240, 240, 240,0.7);
+}
